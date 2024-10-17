@@ -1,6 +1,6 @@
 -- Procedure to compute and store the average score for a specified user.
 
-DELIMETER $$
+DELIMITER $$
 
 DROP PROCEDURE IF EXISTS ComputeAverageScoreForUser;
 CREATE PROCEDURE ComputeAverageScoreForUser (IN user_id INT)
